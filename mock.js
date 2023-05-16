@@ -23996,15 +23996,15 @@
     _auto_save = true;
     defaultData = {
       gems: [
-        { id: 0, src: "/icon_1.svg", state: "ready" },
-        { id: 1, src: "/icon_2.svg", state: "ready" },
-        { id: 2, src: "/icon_3.svg", state: "used" },
-        { id: 3, src: "/icon_4.svg", state: "ready" },
-        { id: 4, src: "/icon_5.svg", state: "ready" },
-        { id: 5, src: "/icon_6.svg", state: "ready" },
-        { id: 6, src: "/icon_7.svg", state: "ready" },
-        { id: 7, src: "/icon_8.svg", state: "ready" },
-        { id: 8, src: "/icon_2.svg", state: "ready" }
+        { id: 0, src: "/todo-demo/icon_1.svg", state: "ready" },
+        { id: 1, src: "/todo-demo/icon_2.svg", state: "ready" },
+        { id: 2, src: "/todo-demo/icon_3.svg", state: "used" },
+        { id: 3, src: "/todo-demo/icon_4.svg", state: "ready" },
+        { id: 4, src: "/todo-demo/icon_5.svg", state: "ready" },
+        { id: 5, src: "/todo-demo/icon_6.svg", state: "ready" },
+        { id: 6, src: "/todo-demo/icon_7.svg", state: "ready" },
+        { id: 7, src: "/todo-demo/icon_8.svg", state: "ready" },
+        { id: 8, src: "/todo-demo/icon_2.svg", state: "ready" }
       ],
       tasks: [
         { id: 0, gemId: null, subject: "\u8CB7\uFF1A\u305F\u307E\u3054", state: "ready" },
