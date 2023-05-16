@@ -1,3 +1,4 @@
+
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
@@ -23750,6 +23751,15 @@
             }
           },
           /* @__PURE__ */ import_react.default.createElement("div", null, _text.dialog.reset.buttonReset)
+        ), /* @__PURE__ */ import_react.default.createElement(
+          "div",
+          {
+            className: "button",
+            onClick: (e) => {
+              location.reload();
+            }
+          },
+          /* @__PURE__ */ import_react.default.createElement("div", null, _text.dialog.reset.buttonReload)
         ));
       }
       return /* @__PURE__ */ import_react.default.createElement(
@@ -23996,15 +24006,15 @@
     _auto_save = true;
     defaultData = {
       gems: [
-        { id: 0, src: "/todo-demo/icon_1.svg", state: "ready" },
-        { id: 1, src: "/todo-demo/icon_2.svg", state: "ready" },
-        { id: 2, src: "/todo-demo/icon_3.svg", state: "used" },
-        { id: 3, src: "/todo-demo/icon_4.svg", state: "ready" },
-        { id: 4, src: "/todo-demo/icon_5.svg", state: "ready" },
-        { id: 5, src: "/todo-demo/icon_6.svg", state: "ready" },
-        { id: 6, src: "/todo-demo/icon_7.svg", state: "ready" },
-        { id: 7, src: "/todo-demo/icon_8.svg", state: "ready" },
-        { id: 8, src: "/todo-demo/icon_2.svg", state: "ready" }
+        { id: 0, src: "./icon_1.svg", state: "ready" },
+        { id: 1, src: "./icon_2.svg", state: "ready" },
+        { id: 2, src: "./icon_3.svg", state: "used" },
+        { id: 3, src: "./icon_4.svg", state: "ready" },
+        { id: 4, src: "./icon_5.svg", state: "ready" },
+        { id: 5, src: "./icon_6.svg", state: "ready" },
+        { id: 6, src: "./icon_7.svg", state: "ready" },
+        { id: 7, src: "./icon_8.svg", state: "ready" },
+        { id: 8, src: "./icon_2.svg", state: "ready" }
       ],
       tasks: [
         { id: 0, gemId: null, subject: "\u8CB7\uFF1A\u305F\u307E\u3054", state: "ready" },
@@ -24052,12 +24062,13 @@
           buttonRename: "\u5909\u66F4\uFF01"
         },
         remove: {
-          text: ["\u30BF\u30B9\u30AF\u3092\u524A\u9664\u3057\u307E\u3059\u3002\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"].join("\n"),
+          text: ["\u30BF\u30B9\u30AF\u3092\u524A\u9664\u3057\u307E\u3059\u3002", "\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"].join("\n"),
           buttonRename: "\u524A\u9664\uFF01"
         },
         reset: {
           text: ["\u30C7\u30E2\u30C7\u30FC\u30BF\u3092\u30EA\u30BB\u30C3\u30C8\u3057\u307E\u3059\u3002", "\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"].join("\n"),
-          buttonReset: "\u30EA\u30BB\u30C3\u30C8"
+          buttonReset: "\u30EA\u30BB\u30C3\u30C8",
+          buttonReload: "\u518D\u8AAD\u8FBC\u3060\u3051"
         }
       }
     };
@@ -24126,5 +24137,4 @@ react-dom/cjs/react-dom.development.js:
 */
 ;
 
-//# sourceMappingURL=mock.js-e1d7d95b875fa84939f009702e322596f1ccc76edbc34fc2e3249a2992c6b146.map
-
+//# sourceMappingURL=mock.js-911993977c504d6fadb7e947d59df36618a1533fa646553cf418e5c4f0e8a19d.map

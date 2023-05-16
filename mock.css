@@ -126,7 +126,7 @@ body * {
     border: 10px solid var(--color--dialog--border);
     color: var(--color--dialog--font);
     border-radius: 15px;
-    padding: 18px;
+    padding: 14px;
     font-size: large
 }
 
